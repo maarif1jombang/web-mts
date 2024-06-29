@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta content="web/img/thumbnail.jpg" property="og:image">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="web/lib/animate/animate.min.css">
+    <link rel="stylesheet" href="web/lib/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="web/css/bootstrap.min.css">
+    <link rel="stylesheet" href="web/css/style.css">
+	
+	<link rel="icon" href="web/img/icon.png">
+	<title>MTs Ma'arif 1 Jombang</title>
+</head>
+
+<body>
+    <div itemprop="image" itemscope="itemscope" itemtype="http://schema.org/ImageObject">
+        <meta content="web/img/thumbnail.jpg" itemprop="url"> 
+    </div>	
+	<div style="background-image:url('web/img/bg.jpg');background-size: cover;background-repeat: no-repeat;background-position: center;background-attachment: fixed;height: 100%;width: 100%;">
+
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+ 
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <img class="img-fluid me-3" src="web/img/icon.png" alt="" style="height: 40px;">
+            <div>
+				<h5 class="m-0 text-primary">MTs MA'ARIF 1</h5>
+				<h6 class="m-0 text-primary">JOMBANG</h6>
+			</div>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse me-3" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Profil</a>
+                    <div class="dropdown-menu fade-down m-0">
+                        <a href="tentang-kami.html" class="dropdown-item active">Tentang Kami</a>
+						<a href="struktur-lembaga.html" class="dropdown-item">Struktur Lembaga</a>
+                        <a href="galeri-kegiatan.html" class="dropdown-item">Galeri Kegiatan</a>
+						<a href="berita-terbaru.html" class="dropdown-item">Berita Terbaru</a>
+                    </div>
+                </div>				
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Data Siswa</a>
+                    <div class="dropdown-menu fade-down m-0">                        
+                        <a href="data-siswa.html" class="dropdown-item">Cari Data Siswa</a>
+                        <a href="kelulusan.html" class="dropdown-item">Cek Kelulusan</a>
+                    </div>
+                </div>
+				<a href="ppdb.html" class="nav-item nav-link">PPDB</a>
+                <a href="portal-app.html" class="nav-item nav-link">Portal App</a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+    
+    <div class="mb-4 d-flex align-items-center bg-light">
+        <div class="text-dark top-0 start-0 d-flex align-items-center">
+            <marquee>
+                <span class="px-4">Selamat Datang di Portal Website MTs Ma'arif 1 Jombang</span>|
+				<span class="px-4">Lembaga Pendidikan dibawah Naungan PC LP Ma'arif NU Jombang</span>|
+				<span class="px-4">Madrasahnya para Muassis NU</span>|
+				<span class="px-4">Pendidikan adalah Jalan, bukan Tujuan</span>|
+				<span class="px-4">Masa depanmu adalah apa yang kamu lakukan hari ini</span>|
+				<span class="px-4">Masa depan yang baik dimulai dengan belajar di MTs Ma'arif 1 Jombang</span>|
+				<span class="px-4">Penerimaan Peserta Didik Baru MTs Ma'arif 1 Jombang TaPel 2024/2025 Sudah Dibuka</span>|
+				<span class="px-4">Daftar sekarang juga !!!</span>
+            </marquee>
+        </div>
+    </div>
+	
+	<!-- Tentang Kami Start -->		
+	<div class="mb-4 container" id="container">
+		<div class="row wow fadeInUp" data-wow-delay="0.1s">
+			<div class="col-md-10 mx-auto">
+                <div class="card card-body">
+                    <h5 class="text-primary text-center mb-0">TENTANG KAMI</h5>
+					<p class="text-muted text-center mb-0">MADRASAH TSANAWIYAH MA'ARIF 1 JOMBANG</p>
+                    <p class="text-muted text-center">TAHUN PELAJARAN 2023/2024</p>
+                    <br>
+                    <p style="text-indent: 45px;" class="justify mb-2">MTs Ma’arif 1 Jombang didirikan pada tahun 1994, merupakan bagian dari Yayasan Perkumpulan Nahdlatul Ulama (NU) dengan Nomor Kemenkumham AHU-119.AH.01.08 Tahun 2013 / 26 Juni 2013 dan Nomor Ijin Operasional MTsS/17.0044/2016 Nomor 1405 Tahun 2016 yang beralamat di Kauman Utara Gg.I/09 Jombang.</p>
+					<p style="text-indent: 45px;" class="justify mb-3">Ruang lingkup kegiatan MTs Ma'arif 1 Jombang diantaranya menumbuhkembangkan sikap, perilaku dan amaliyah keagamaan Islam, mendorong semangat belajar, membantu dan memfasilitasi siswa untuk mengembangkan kemampuan, bakat dan minatnya dan menerapkan manajemen partisipatif yang melibatkan seluruh warga madrasah, komite madrasah dan stakeholders untuk mewujudkan madrasah sebagai lembaga pendidikan yang mendapatkan kepercayaan dari masyarakat.</p>	
+					<div class="row g-3">
+						<div class="col-lg-6 col-sm-6">							
+							<img class="img-fluid" style="border-radius: 5px; width: 100%;height: 250px;object-fit: cover;" src="web/img/profil.jpg">
+						</div>
+						<div class="col-lg-6 col-sm-6">
+							<iframe style="border-radius: 5px;" src="https://www.youtube.com/embed/TqaSr7kt-wM" width="100%" height="250"></iframe>
+						</div>
+					</div>
+                </div>
+			</div>
+		</div>
+    </div>
+    <!-- Tentang Kami End -->
+	
+	<!-- Visi Misi Start -->		
+	<div class="mb-4 container" id="container">
+		<div class="row wow fadeInUp" data-wow-delay="0.1s">
+			<div class="col-md-10 mx-auto">
+                <div class="card card-body">
+                    <h5 class="text-primary text-center mb-0">VISI MISI</h5>
+					<p class="text-muted text-center mb-0">MADRASAH TSANAWIYAH MA'ARIF 1 JOMBANG</p>
+                    <p class="text-muted text-center">TAHUN PELAJARAN 2023/2024</p>
+					<br>
+					<div class="row g-4">
+						<div class="col-lg-6 col-sm-6">
+							<p class="text-primary mb-0"><b><font size="+1">VISI</font></b></p>
+							<hr>
+							<ul type="disc">
+								<li class="justify mb-4">Terjaminnya Pendidikan yang Berkualitas, Mantap dalam Iman dan Taqwa, Berilmu Pengetahuan dan Berbudi Pekerti Luhur serta Terampil dalam Seni dan Berdaya Saing</li>
+							</ul>
+						</div>
+						<div class="col-lg-6 col-sm-6">
+							<p class="text-primary mb-0"><b><font size="+1">MISI</font></b></p>
+							<hr>
+							<ul type="disc">
+								<li class="justify mb-1">Memberikan kesempatan kepada masyarakat mendapatkan pendidikan</li>
+								<li class="justify mb-1">Mengembangkan potensi siswa melalui pendidikan yang islami bercirikan khas Ahlusunnah wal jama’ah</li>
+								<li class="justify mb-1">Meningkatkan peran serta masyarakat dan manajemen berbasis madrasah</li>
+								<li class="justify mb-1">Meningkatkan kelayaan, profesionalisme dan kesejahteraan tenaga pendidikan</li>
+								<li class="justify mb-1">Meningkatkan sarana dan prasarana pendidikan</li>
+								<li class="justify mb-0">Meningkatkan kepedulian kepada siswa</li>
+							</ul>
+						</div>
+					</div>
+                </div>
+			</div>
+		</div>
+    </div>
+    <!-- Visi Misi End -->
+	
+	<!-- Profil Lembaga Start -->		
+	<div class="mb-4 container" id="container">
+		<div class="row wow fadeInUp" data-wow-delay="0.1s">
+			<div class="col-md-10 mx-auto">
+                <div class="card card-body">
+                    <h5 class="text-primary text-center mb-0">PROFIL LEMBAGA</h5>
+					<p class="text-muted text-center mb-0">MADRASAH TSANAWIYAH MA'ARIF 1 JOMBANG</p>
+                    <p class="text-muted text-center">TAHUN PELAJARAN 2023/2024</p>
+                    <br>
+                    <div class="table-responsive">
+                        <table class="table">
+                            <tbody>
+                                <tr>
+                                    <th scope="row">Nama Lembaga</th>
+                                    <td class="titik-dua">:</td>
+                                    <td class="text-left">MTs Ma'arif 1 Jombang</td>
+                                </tr>
+								<tr>
+                                    <th scope="row">NSM</th>
+                                    <td class="titik-dua">:</td>
+                                    <td class="text-left">121235170044</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">NPSN</th>
+                                    <td class="titik-dua">:</td>
+                                    <td class="text-left">20582344</td>
+                                </tr>
+								<tr>
+                                    <th scope="row">Jenjang</th>
+                                    <td class="titik-dua">:</td>
+                                    <td class="text-left">MTs</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Status</th>
+                                    <td class="titik-dua">:</td>
+                                    <td class="text-left">Swasta</td>
+                                </tr>
+								<tr>
+                                    <th scope="row">Kurikulum</th>
+                                    <td class="titik-dua">:</td>
+                                    <td class="text-left">K-13</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Waktu Belajar</th>
+                                    <td class="titik-dua">:</td>
+                                    <td class="text-left">Pagi</td>
+                                </tr>
+								<tr>
+                                    <th scope="row">Tahun Berdiri</th>
+                                    <td class="titik-dua">:</td>
+                                    <td class="text-left">13 Juni 1994</td>
+                                </tr>
+								<tr>
+                                    <th scope="row">No. SK Pendirian</th>
+                                    <td class="titik-dua">:</td>
+                                    <td class="text-left">Wm.06.03/PP.03.2/3063/SKP/1998</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Tanggal SK Pendirian</th>
+                                    <td class="titik-dua">:</td>
+                                    <td class="text-left">02 September 1998</td>
+                                </tr>
+								<tr>
+                                    <th scope="row">Penyelenggara</th>
+                                    <td class="titik-dua">:</td>
+                                    <td class="text-left">Perkumpulan Nahdlatul Ulama (NU)</td>
+                                </tr>
+								<tr>
+                                    <th scope="row">Akte Notaris</th>
+                                    <td class="titik-dua">:</td>
+                                    <td class="text-left">Munyati Sullam, SH, MA</td>
+                                </tr>
+								<tr>
+                                    <th scope="row">No. Akte Notaris</th>
+                                    <td class="titik-dua">:</td>
+                                    <td class="text-left">26/NOT/10/V/2013</td>
+                                </tr>
+								<tr>
+                                    <th scope="row">No. SK Kemenkumham</th>
+                                    <td class="titik-dua">:</td>
+                                    <td class="text-left">AHU - 119.AH.01.08 Tahun 2013</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Tanggal SK Kemenkumham</th>
+                                    <td class="titik-dua">:</td>
+                                    <td class="text-left">26 Juni 2013</td>
+                                </tr>
+								<tr>
+                                    <th scope="row">No. SK Ijin Operasional</th>
+                                    <td class="titik-dua">:</td>
+                                    <td class="text-left">1405 Tahun 2016</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">No. Blanko Ijin Operasional</th>
+                                    <td class="titik-dua">:</td>
+                                    <td class="text-left">MTsS / 17.004 / 2016</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Tanggal SK Ijin Operasional</th>
+                                    <td class="titik-dua">:</td>
+                                    <td class="text-left">25 April 2016</td>
+                                </tr>								
+                                <tr>
+                                    <th scope="row">Akreditasi</th>
+                                    <td class="titik-dua">:</td>
+                                    <td class="text-left">B / 86</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">No. SK Akreditasi</th>
+                                    <td class="titik-dua">:</td>
+                                    <td class="text-left">087/BAN-PDM/SK/2024</td>
+                                </tr>
+								<tr>
+                                    <th scope="row">Tahun Akreditasi</th>
+                                    <td class="titik-dua">:</td>
+                                    <td class="text-left">30 April 2024</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"><span class="text-primary"><br>Alamat</span></th>
+                                    <td class="titik-dua"></td>
+                                    <td class="text-left"></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Jalan</th>
+                                    <td class="titik-dua">:</td>
+                                    <td class="text-left">Kauman Utara Gg. 1/09 Jombang</td>
+                                </tr>
+								<tr>
+                                    <th scope="row">RT/RW</th>
+                                    <td class="titik-dua">:</td>
+                                    <td class="text-left">14/01</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Desa</th>
+                                    <td class="titik-dua">:</td>
+                                    <td class="text-left">Jombang</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Kecamatan</th>
+                                    <td class="titik-dua">:</td>
+                                    <td class="text-left">Jombang</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Kabupaten</th>
+                                    <td class="titik-dua">:</td>
+                                    <td class="text-left">Jombang</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Provinsi</th>
+                                    <td class="titik-dua">:</td>
+                                    <td class="text-left">Jawa Timur</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Kode Pos</th>
+                                    <td class="titik-dua">:</td>
+                                    <td class="text-left">61415</td>
+                                </tr>
+                                    <th scope="row">Latitude (Lintang)</th>
+                                    <td class="titik-dua">:</td>
+                                    <td class="text-left">-7.5360835</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Longitude (Bujur)</th>
+                                    <td class="titik-dua">:</td>
+                                    <td class="text-left">112.231803</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"><span class="text-primary"><br>Kontak</span></th>
+                                    <td class="titik-dua"></td>
+                                    <td class="text-left"></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Telepon</th>
+                                    <td class="titik-dua">:</td>
+                                    <td class="text-left">085330226627</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Website</th>
+                                    <td class="titik-dua">:</td>
+                                    <td class="text-left"><a href="https://mts.maarif1jombang.my.id" class="">https://mts.maarif1jombang.my.id</a></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Email</th>
+                                    <td class="titik-dua">:</td>
+                                    <td class="text-left">maarif1jombang@gmail.com</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"><span class="text-primary"><br>Data Tambahan</span></th>
+                                    <td class="titik-dua"></td>
+                                    <td class="text-left"></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Luas Tanah Milik</th>
+                                    <td class="titik-dua">:</td>
+                                    <td class="text-left">4440 m2</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Sumber Listrik</th>
+                                    <td class="titik-dua">:</td>
+                                    <td class="text-left">PLN</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Daya Listrik</th>
+                                    <td class="titik-dua">:</td>
+                                    <td class="text-left">1300 W</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Akses Internet</th>
+                                    <td class="titik-dua">:</td>
+                                    <td class="text-left">Indihome</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+			</div>
+		</div>
+    </div>
+    <!-- Profil Lembaga End -->
+
+	<!-- GTK Start -->		
+	<div class="mb-4 container" id="container">
+		<div class="row wow fadeInUp" data-wow-delay="0.1s">
+			<div class="col-md-10 mx-auto">
+                <div class="card card-body">
+                    <h5 class="text-primary text-center mb-0">DEWAN GURU</h5>
+					<p class="text-muted text-center mb-0">MADRASAH TSANAWIYAH MA'ARIF 1 JOMBANG</p>
+                    <p class="text-muted text-center">TAHUN PELAJARAN 2023/2024</p>
+                    <br>
+					<div class="owl-carousel testimonial-carousel position-relative">
+						<div class="testimonial-item text-center">
+							<div class="team-item">
+								<img class="border rounded-circle p-1 mx-auto mb-3" style="width: 150px; height: 150px;" src="web/img/gtk-1.jpg">
+								<div class="text-center">
+									<p class="mb-0"><b>H. Moh. Ali Toib, M.Pd.I</b></p>
+									<small>Kepala Madrasah</small>
+									<div class="d-flex justify-content-center">
+										<a class="mx-1 p-1" href="#"><i class="fab fa-twitter"></i></a>
+										<a class="mx-1 p-1" href="#"><i class="fab fa-facebook-f"></i></a>
+										<a class="mx-1 p-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+										<a class="mx-1 p-1" href="#"><i class="fab fa-instagram"></i></a>
+										<a class="mx-1 p-1" href="#"><i class="fab fa-youtube"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="testimonial-item text-center">
+							<div class="team-item">
+								<img class="border rounded-circle p-1 mx-auto mb-3" style="width: 150px; height: 150px;" src="web/img/gtk-2.jpg">
+								<div class="text-center">
+									<p class="mb-0"><b>Drs. Sumadi</b></p>
+									<small>Guru IPS</small>
+									<div class="d-flex justify-content-center">
+										<a class="mx-1 p-1" href="#"><i class="fab fa-twitter"></i></a>
+										<a class="mx-1 p-1" href="#"><i class="fab fa-facebook-f"></i></a>
+										<a class="mx-1 p-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+										<a class="mx-1 p-1" href="#"><i class="fab fa-instagram"></i></a>
+										<a class="mx-1 p-1" href="#"><i class="fab fa-youtube"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="testimonial-item text-center">
+							<div class="team-item">
+								<img class="border rounded-circle p-1 mx-auto mb-3" style="width: 150px; height: 150px;" src="web/img/gtk-3.jpg">
+								<div class="text-center">
+									<p class="mb-0"><b>Drs. H. Sutrisno</b></p>
+									<small>Guru Ta'lim</small>
+									<div class="d-flex justify-content-center">
+										<a class="mx-1 p-1" href="#"><i class="fab fa-twitter"></i></a>
+										<a class="mx-1 p-1" href="#"><i class="fab fa-facebook-f"></i></a>
+										<a class="mx-1 p-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+										<a class="mx-1 p-1" href="#"><i class="fab fa-instagram"></i></a>
+										<a class="mx-1 p-1" href="#"><i class="fab fa-youtube"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="testimonial-item text-center">
+							<div class="team-item">
+								<img class="border rounded-circle p-1 mx-auto mb-3" style="width: 150px; height: 150px;" src="web/img/gtk-4.jpg">
+								<div class="text-center">
+									<p class="mb-0"><b>Abdul Rokhman, S.Pd</b></p>
+									<small>Guru IPA</small>
+									<div class="d-flex justify-content-center">
+										<a class="mx-1 p-1" href="#"><i class="fab fa-twitter"></i></a>
+										<a class="mx-1 p-1" href="#"><i class="fab fa-facebook-f"></i></a>
+										<a class="mx-1 p-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+										<a class="mx-1 p-1" href="#"><i class="fab fa-instagram"></i></a>
+										<a class="mx-1 p-1" href="#"><i class="fab fa-youtube"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="testimonial-item text-center">
+							<div class="team-item">
+								<img class="border rounded-circle p-1 mx-auto mb-3" style="width: 150px; height: 150px;" src="web/img/gtk-5.jpg">
+								<div class="text-center">
+									<p class="mb-0"><b>Dra. Hj. Maschotijah</b></p>
+									<small>Guru Bhs Indonesia</small>
+									<div class="d-flex justify-content-center">
+										<a class="mx-1 p-1" href="#"><i class="fab fa-twitter"></i></a>
+										<a class="mx-1 p-1" href="#"><i class="fab fa-facebook-f"></i></a>
+										<a class="mx-1 p-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+										<a class="mx-1 p-1" href="#"><i class="fab fa-instagram"></i></a>
+										<a class="mx-1 p-1" href="#"><i class="fab fa-youtube"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="testimonial-item text-center">
+							<div class="team-item">
+								<img class="border rounded-circle p-1 mx-auto mb-3" style="width: 150px; height: 150px;" src="web/img/gtk-6.jpg">
+								<div class="text-center">
+									<p class="mb-0"><b>Sofiatun, S.Ag</b></p>
+									<small>Guru Bhs Arab, Nahwu</small>
+									<div class="d-flex justify-content-center">
+										<a class="mx-1 p-1" href="#"><i class="fab fa-twitter"></i></a>
+										<a class="mx-1 p-1" href="#"><i class="fab fa-facebook-f"></i></a>
+										<a class="mx-1 p-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+										<a class="mx-1 p-1" href="#"><i class="fab fa-instagram"></i></a>
+										<a class="mx-1 p-1" href="#"><i class="fab fa-youtube"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="testimonial-item text-center">
+							<div class="team-item">
+								<img class="border rounded-circle p-1 mx-auto mb-3" style="width: 150px; height: 150px;" src="web/img/gtk-7.jpg">
+								<div class="text-center">
+									<p class="mb-0"><b>Muzaiyanah, S.Pd</b></p>
+									<small>Guru SKI, Al Qur'an H</small>
+									<div class="d-flex justify-content-center">
+										<a class="mx-1 p-1" href="#"><i class="fab fa-twitter"></i></a>
+										<a class="mx-1 p-1" href="#"><i class="fab fa-facebook-f"></i></a>
+										<a class="mx-1 p-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+										<a class="mx-1 p-1" href="#"><i class="fab fa-instagram"></i></a>
+										<a class="mx-1 p-1" href="#"><i class="fab fa-youtube"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>						
+						<div class="testimonial-item text-center">
+							<div class="team-item">
+								<img class="border rounded-circle p-1 mx-auto mb-3" style="width: 150px; height: 150px;" src="web/img/gtk-8.jpg">
+								<div class="text-center">
+									<p class="mb-0"><b>A. Irwan Kusnawi, M.Pd</b></p>
+									<small>Guru Penjaskes</small>
+									<div class="d-flex justify-content-center">
+										<a class="mx-1 p-1" href="#"><i class="fab fa-twitter"></i></a>
+										<a class="mx-1 p-1" href="#"><i class="fab fa-facebook-f"></i></a>
+										<a class="mx-1 p-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+										<a class="mx-1 p-1" href="#"><i class="fab fa-instagram"></i></a>
+										<a class="mx-1 p-1" href="#"><i class="fab fa-youtube"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="testimonial-item text-center">
+							<div class="team-item">
+								<img class="border rounded-circle p-1 mx-auto mb-3" style="width: 150px; height: 150px;" src="web/img/gtk-9.jpg">
+								<div class="text-center">
+									<p class="mb-0"><b>Ati' M. Albadri, S.Pd</b></p>
+									<small>Guru Matematika</small>
+									<div class="d-flex justify-content-center">
+										<a class="mx-1 p-1" href="#"><i class="fab fa-twitter"></i></a>
+										<a class="mx-1 p-1" href="#"><i class="fab fa-facebook-f"></i></a>
+										<a class="mx-1 p-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+										<a class="mx-1 p-1" href="#"><i class="fab fa-instagram"></i></a>
+										<a class="mx-1 p-1" href="#"><i class="fab fa-youtube"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="testimonial-item text-center">
+							<div class="team-item">
+								<img class="border rounded-circle p-1 mx-auto mb-3" style="width: 150px; height: 150px;" src="web/img/gtk-10.jpg">
+								<div class="text-center">
+									<p class="mb-0"><b>Endang Hidayati, M.Si</b></p>
+									<small>Guru IPS</small>
+									<div class="d-flex justify-content-center">
+										<a class="mx-1 p-1" href="#"><i class="fab fa-twitter"></i></a>
+										<a class="mx-1 p-1" href="#"><i class="fab fa-facebook-f"></i></a>
+										<a class="mx-1 p-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+										<a class="mx-1 p-1" href="#"><i class="fab fa-instagram"></i></a>
+										<a class="mx-1 p-1" href="#"><i class="fab fa-youtube"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>						
+						<div class="testimonial-item text-center">
+							<div class="team-item">
+								<img class="border rounded-circle p-1 mx-auto mb-3" style="width: 150px; height: 150px;" src="web/img/gtk-11.jpg">
+								<div class="text-center">
+									<p class="mb-0"><b>Ummi Zahrotun N, S.Pd.I</b></p>
+									<small>Guru Fiqih, Prakarya</small>
+									<div class="d-flex justify-content-center">
+										<a class="mx-1 p-1" href="#"><i class="fab fa-twitter"></i></a>
+										<a class="mx-1 p-1" href="#"><i class="fab fa-facebook-f"></i></a>
+										<a class="mx-1 p-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+										<a class="mx-1 p-1" href="#"><i class="fab fa-instagram"></i></a>
+										<a class="mx-1 p-1" href="#"><i class="fab fa-youtube"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="testimonial-item text-center">
+							<div class="team-item">
+								<img class="border rounded-circle p-1 mx-auto mb-3" style="width: 150px; height: 150px;" src="web/img/gtk-12.JPG">
+								<div class="text-center">
+									<p class="mb-0"><b>M. Hafizh Ashari, S.Pd</b></p>
+									<small>Guru Aqidah A</small>
+									<div class="d-flex justify-content-center">
+										<a class="mx-1 p-1" href="#"><i class="fab fa-twitter"></i></a>
+										<a class="mx-1 p-1" href="#"><i class="fab fa-facebook-f"></i></a>
+										<a class="mx-1 p-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+										<a class="mx-1 p-1" href="#"><i class="fab fa-instagram"></i></a>
+										<a class="mx-1 p-1" href="#"><i class="fab fa-youtube"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>						
+						<div class="testimonial-item text-center">
+							<div class="team-item">
+								<img class="border rounded-circle p-1 mx-auto mb-3" style="width: 150px; height: 150px;" src="web/img/gtk-13.jpg">
+								<div class="text-center">
+									<p class="mb-0"><b>Defy Alfian Sari, S.Pd</b></p>
+									<small>Guru Bhs Inggris</small>
+									<div class="d-flex justify-content-center">
+										<a class="mx-1 p-1" href="#"><i class="fab fa-twitter"></i></a>
+										<a class="mx-1 p-1" href="#"><i class="fab fa-facebook-f"></i></a>
+										<a class="mx-1 p-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+										<a class="mx-1 p-1" href="#"><i class="fab fa-instagram"></i></a>
+										<a class="mx-1 p-1" href="#"><i class="fab fa-youtube"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="testimonial-item text-center">
+							<div class="team-item">
+								<img class="border rounded-circle p-1 mx-auto mb-3" style="width: 150px; height: 150px;" src="web/img/gtk-14.jpg">
+								<div class="text-center">
+									<p class="mb-0"><b>Mayada Widyawati, S.Pd</b></p>
+									<small>Guru PKn</small>
+									<div class="d-flex justify-content-center">
+										<a class="mx-1 p-1" href="#"><i class="fab fa-twitter"></i></a>
+										<a class="mx-1 p-1" href="#"><i class="fab fa-facebook-f"></i></a>
+										<a class="mx-1 p-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+										<a class="mx-1 p-1" href="#"><i class="fab fa-instagram"></i></a>
+										<a class="mx-1 p-1" href="#"><i class="fab fa-youtube"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>					
+                </div>
+			</div>
+		</div>
+    </div>
+    <!-- GTK End -->
+	
+	<!-- Kontak Start -->		
+	<div class="mb-4 container" id="container">
+		<div class="row wow fadeInUp" data-wow-delay="0.1s">
+			<div class="col-md-10 mx-auto">
+                <div class="card card-body">
+                    <h5 class="text-primary text-center mb-0">HUBUNGI KAMI</h5>
+                    <hr>
+                    <div class="row g-3 mb-3">
+						<div class="col-lg-6 col-sm-5">
+							<iframe style="border-radius: 5px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d569.0223088568438!2d112.23166039204095!3d-7.536188561664016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e783ff8a8ca64e5%3A0x1cf7f0791900addd!2sMTs%2C%20MA%20Ma&#39;arif%201!5e1!3m2!1sen!2sus!4v1684651966390!5m2!1sen!2sus" width="100%" height="203"></iframe>
+						</div>
+						<div class="col-lg-6 col-sm-7">
+							<div class="border d-flex align-items-center mb-3" style="border-radius: 5px;">
+								<div class="d-flex align-items-center justify-content-center flex-shrink-0 bg-primary" style="border-radius: 5px; width: 56px; height: 56px;">
+									<i class="fa fa-2x fa-map-marker-alt text-white"></i>
+								</div>
+								<div class="ms-3">
+									<p class="mb-0 text-primary"><b><font size="+1">Alamat</font></b></p>
+									<p class="mb-0"><small>Kauman Utara Gg. 1/09 Jombang</small></p>
+								</div>
+							</div>
+							<div class="border d-flex align-items-center mb-3" style="border-radius: 5px;">
+								<div class="d-flex align-items-center justify-content-center flex-shrink-0 bg-primary" style="border-radius: 5px; width: 56px; height: 56px;">
+									<i class="fa fa-2x fa-phone-alt text-white"></i>
+								</div>
+								<div class="ms-3">
+									<p class="mb-0 text-primary"><b><font size="+1">WhatsApp</font></b></p>
+									<p class="mb-0"><small>0857 4840 8728</small></p>
+								</div>
+							</div>
+							<div class="border d-flex align-items-center mb-0" style="border-radius: 5px;">
+								<div class="d-flex align-items-center justify-content-center flex-shrink-0 bg-primary" style="border-radius: 5px; width: 56px; height: 56px;">
+									<i class="fa fa-2x fa-envelope-open text-white"></i>
+								</div>
+								<div class="ms-3">
+									<p class="mb-0 text-primary"><b><font size="+1">Email</font></b></p>
+									<p class="mb-0"><small>maarif1jombang@gmail.com</small></p>
+								</div>
+							</div>
+						</div>						
+					</div>
+					<div class="">
+						<div class="border d-flex align-items-center mb-3" style="border-radius: 5px">
+							<div class="container">
+								<p class="justify py-3 mb-0">Assalamu'alaikum Wr. Wb.<br>Saya ingin bertanya tentang Pendaftaran Peserta Didik Baru (PPDB) MTs Ma'arif 1 Jombang, apakah masih dibuka?</p>
+							</div>
+						</div>
+						<div class="border d-flex align-items-center mb-0" style="border-radius: 5px;">
+							<div class="col-12">
+								<a class="btn btn-primary w-100 py-3" style="width: 100%;border-radius: 5px" href="https://api.whatsapp.com/send?phone=6285748408728&text=Assalamu%27alaikum+Wr.+Wb%0ASaya+ingin+bertanya+tentang+Pendaftaran+Siswa+Baru+MTs+Ma%27arif+1+Jombang,+apakah+masih+dibuka%3F"><b><font size="+1">Kirim WhatsApp</font></b></a>
+							</div>
+						</div>
+					</div>
+                </div>
+			</div>
+		</div>
+    </div>
+    <!-- Kontak End -->
+	
+	<!-- Link Terkait Start -->
+	<div class="mb-0 container" id="container">
+		<div class="row wow fadeInUp" data-wow-delay="0.1s">
+			<div class="col-md-10 mx-auto">
+				<div class="card card-body">
+					<div class="breadcrumb mb-0">
+						<a class="btn bg-primary text-white py-md-0 px-md-2 me-1 wow fadeInUp" href="index.html"><i class="fa fa-home"></i></a> 
+						<a class="btn bg-yellow text-white py-md-0 px-md-2 me-1 wow fadeInUp">Link Terkait</a>
+						<a class="btn bg-orange text-white py-md-0 px-md-2 me-1 wow fadeInUp">MTs Ma'arif 1 Jombang</a>
+					</div>
+					<hr>
+					<div class="breadcrumb mb-0">
+						<a class="mb-2 btn bg-primary text-white py-md-0 px-md-2 me-1 wow fadeInUp" href="https://appmadrasah.kemenag.go.id/web/profile?nsm=121235170044"><small>Profil Madrasah (EMIS)</small></a>						
+						<a class="mb-2 btn bg-primary text-white py-md-0 px-md-2 me-1 wow fadeInUp" href="https://referensi.data.kemdikbud.go.id/tabs.php?npsn=20582344"><small>Data Referensi NPSN</small></a>
+						<a class="mb-2 btn bg-primary text-white py-md-0 px-md-2 me-1 wow fadeInUp" href="https://e-gsm.edumate.id/schools/mtss-maarif-1-jombang"><small>PPDB e-GSM</small></a>
+					</div>
+					<div class="breadcrumb mb-0">
+						<a class="mb-2 btn bg-primary text-white py-md-0 px-md-2 me-1 wow fadeInUp" href="https://maarif1jombang.blogspot.com"><small>Blogger</small></a>
+						<a class="mb-2 btn bg-primary text-white py-md-0 px-md-2 me-1 wow fadeInUp" href="https://fb.com/groups/mts.maarif1jombang"><small>Facebook</small></a>
+						<a class="mb-2 btn bg-primary text-white py-md-0 px-md-2 me-1 wow fadeInUp" href="https://www.youtube.com/@mts.maarif1jombang"><small>Youtube</small></a>
+						<a class="mb-2 btn bg-primary text-white py-md-0 px-md-2 me-1 wow fadeInUp" href="https://www.twibbonize.com/u/mts.maarif1jombang"><small>Twibbonize</small></a>
+					</div>
+				</div>
+			</div>
+        </div>
+	</div>
+	<!-- Link Terkait End -->
+	
+	<footer class=" footer py-3 text-center text-white"><small>Copyright © 2024 | Web Portal <a href="https://maarif1jombang.my.id" class="text-decoration-none"><b> MTs-MA Ma'arif 1 Jombang</b></a></small></footer>
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg-square back-to-top"><i class="fa fa-2x fa-arrow-alt-circle-up"></i></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="web/lib/wow/wow.min.js"></script>
+    <script src="web/lib/easing/easing.min.js"></script>
+    <script src="web/lib/waypoints/waypoints.min.js"></script>
+    <script src="web/lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="web/js/main.js"></script>
+    
+    <style type="text/css">.justify {text-align: justify;}</style>
+    <style>.card {border: 1px solid #eff2f5;border-radius: 10px;box-shadow: none;}</style>
+	<style>.card-body {padding: 1.5rem 1.5rem;}</style>
+	<style>.bg-yellow {background: #ffc107;}</style>
+	<style>.bg-orange {background: #f4623a;}</style>
+</body>
+
+</html>
